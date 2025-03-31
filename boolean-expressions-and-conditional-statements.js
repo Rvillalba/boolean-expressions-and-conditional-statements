@@ -42,6 +42,19 @@ if (choice === "mountains" && hasTorch) {
   console.log("You get lost and wander aimlessly.");
 }
 
+
+console.log("Upon arriving to the village, you see two objects in a bush: a large shiny object, and a small shiny object.");
+const choice2 = readline.question("Do you reach for the small object or the large object? ");
+
+if (choice2 === "small" || choice2 === "small object") {
+  console.log("You pick up a compass, but a bear lunges at you and you die.");
+} 
+  else if (choice2 == "large" || choice2 === "large object") {
+  console.log("You pick up a sword and fend off a bear that lunges at you.");
+}
+  else {
+  console.log("You are scared of shiny things and run away")
+}
 /* 
 
 Add Customization and expand the game:
